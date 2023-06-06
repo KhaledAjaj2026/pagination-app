@@ -15,11 +15,16 @@ body {
   display: flex;
   background-color: #babd8d;
   width: 50vw;
-  height: 70vh;
+  height: 60vh;
   margin-left: 25vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
 }
 .list-body ul {
+  padding: 0;
   list-style: none;
   color: #0d1a08;
 }/*# sourceMappingURL=list.css.map */

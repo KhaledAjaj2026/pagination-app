@@ -1,0 +1,16 @@
+@use '../../../index.scss';
+
+span {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    .identifier {
+        font-weight: bold;
+    }
+}
+hr {
+    border-style: none;
+    border: 0.5px solid index.$dark-green;
+    margin: 20px auto;
+    width: 60%;
+}
