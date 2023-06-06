@@ -1,3 +1,17 @@
+@use '../../index.scss';
+
 .list-title {
-    color: red;
+    text-align: center;
+}
+.list-body {
+    display: flex;
+    background-color: index.$sage;
+    width: 50vw;
+    height: 70vh;
+    margin-left: 25vw;
+    border-radius: 5px;
+    ul {
+        list-style: none;
+        color: index.$dark-green;
+    }
 }

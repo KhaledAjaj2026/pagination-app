@@ -1,3 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #344e41;
+  color: #f1f7ed;
+}
+
 .list-title {
-  color: red;
+  text-align: center;
+}
+
+.list-body {
+  display: flex;
+  background-color: #babd8d;
+  width: 50vw;
+  height: 70vh;
+  margin-left: 25vw;
+  border-radius: 5px;
+}
+.list-body ul {
+  list-style: none;
+  color: #0d1a08;
 }/*# sourceMappingURL=list.css.map */

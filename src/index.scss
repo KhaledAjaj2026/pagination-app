@@ -1,0 +1,17 @@
+$dark-green: #0d1a08;
+$brunswick: #344e41;
+$hunter: #3a5a40;
+$sage: #babd8d;
+$mint-cream: #f1f7ed;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $brunswick;
+  color: $mint-cream;
+}
+
