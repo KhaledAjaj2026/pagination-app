@@ -7,7 +7,7 @@ function List() {
         <>
             <h1 className="list-title">List of Attendees:</h1>
             <div className="list-body">
-                <ul>
+                <ul id="attendants-list">
                     <Attendant />
                 </ul>
             </div>
