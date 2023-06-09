@@ -1,5 +1,4 @@
 import attendees from '../../public/attendees.json'
-import styles from '../../styles/attendant.css'
 
 export default function Attendant() {
     // let name, color, id;

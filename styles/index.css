@@ -5,4 +5,38 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #344e41;
   color: #f1f7ed;
+}
+
+/********** SearchBar **********/
+.search-title {
+  color: green;
+}
+
+/********** List **********/
+.list_title {
+  text-align: right;
+  color: red;
+}
+
+.list_body {
+  display: flex;
+  background-color: #babd8d;
+  width: 50vw;
+  height: 60vh;
+  margin-left: 25vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.list_body ul {
+  padding: 0;
+  list-style: none;
+  color: #0d1a08;
+}
+
+/********** Paginator **********/
+.pg_title {
+  color: blue;
 }/*# sourceMappingURL=index.css.map */

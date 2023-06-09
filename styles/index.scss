@@ -14,4 +14,36 @@ body {
   background-color: $brunswick;
   color: $mint-cream;
 }
-
+/********** SearchBar **********/
+.search-title {
+  color: green;
+}
+/********** List **********/
+.list_title {
+  text-align: right;
+  color: red;
+}
+.list_body {
+  display: flex;
+  background-color: $sage;
+  width: 50vw;
+  height: 60vh;
+  margin-left: 25vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  ul {
+      padding: 0;
+      list-style: none;
+      color: $dark-green;
+  }
+}
+/********** Paginator **********/
+.pg_title {
+  color: blue;
+}
+:export {
+  
+}
