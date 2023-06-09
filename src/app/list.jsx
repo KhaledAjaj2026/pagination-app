@@ -1,5 +1,5 @@
 import Attendant from './attendant'
-import styles from '../../styles/index.scss'
+import styles from '../../styles/Home.module.css'
 
 export default function List() {
     return (

@@ -1,9 +1,9 @@
-import styles from '../../styles/index.scss';
+import styles from '../../styles/Home.module.css'
 
 export default function SearchBar() {
     return (
         <>
-            <h1 className="search-title">SearchBar</h1>
+            <h1 className={styles.search_title}>SearchBar</h1>
         </>
     );
 }
