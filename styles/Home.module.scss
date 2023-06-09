@@ -16,14 +16,10 @@ $mint-cream: #f1f7ed;
 
 /********** SearchBar **********/
 .search_title {
-    color: blue;
-}
-
-/********** List **********/
-.list_title {
     color: red;
 }
 
+/********** List **********/
 .list_body {
     display: flex;
     background-color: $sage;
@@ -41,6 +37,14 @@ $mint-cream: #f1f7ed;
         list-style: none;
         color: $dark-green;
     }
+}
+
+/********** Attendants **********/
+.attendants_item {
+    color: blue;
+}
+.identifier {
+    font-weight: bold;
 }
 
 /********** Paginator **********/

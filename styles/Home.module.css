@@ -10,14 +10,10 @@
 
 /********** SearchBar **********/
 .search_title {
-  color: blue;
-}
-
-/********** List **********/
-.list_title {
   color: red;
 }
 
+/********** List **********/
 .list_body {
   display: flex;
   background-color: #babd8d;
@@ -34,6 +30,15 @@
   padding: 0;
   list-style: none;
   color: #0d1a08;
+}
+
+/********** Attendants **********/
+.attendants_item {
+  color: blue;
+}
+
+.identifier {
+  font-weight: bold;
 }
 
 /********** Paginator **********/
