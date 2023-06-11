@@ -9,11 +9,8 @@
 }
 
 /********** SearchBar **********/
-.searchbar_body {
-  margin: 3rem 40vw;
-}
-
 .search_field {
+  margin: 3rem 40vw;
   border: 1px solid #0f210e;
   border-radius: 5px;
   background-color: #b7c6b5;
@@ -29,7 +26,7 @@
   display: flex;
   background-color: #babd8d;
   width: 50vw;
-  height: 60vh;
+  height: 50vh;
   margin-left: 25vw;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -53,6 +50,26 @@
 }
 
 /********** Paginator **********/
-.pg_title {
-  color: green;
+.paginator_body {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.page_arrow {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.page_num {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.box {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #f1f7ed;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=Home.module.css.map */
