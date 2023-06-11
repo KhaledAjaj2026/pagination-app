@@ -2,7 +2,7 @@
 
 import attendees from '../../json/attendees.json'
 import { useEffect } from 'react';
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/Home.module.scss'
 
 export default function Attendants() {
     useEffect(() => {
@@ -13,7 +13,7 @@ export default function Attendants() {
         id = attendees[i].id;
         document.getElementById('attendants_list').innerHTML += 
             `
-                <li className=${styles.attendants_item}>
+                <li className='attendants_item'>
                     <span><span className=${styles.identifier}>Name: </span>${name}</span>
                     <span><span className=${styles.identifier}>Color: </span>${color}</span>
                     <span><span className=${styles.identifier}>ID: </span>${id}</span>

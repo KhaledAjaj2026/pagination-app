@@ -3,7 +3,12 @@ import styles from '../../styles/Home.module.css'
 export default function SearchBar() {
     return (
         <>
-            <h1 className={styles.search_title}>SearchBar</h1>
+            <div className={styles.searchbar_body}>
+                <form>
+                    {/* <label for="search"></label> */}
+                    <input className={styles.search_field} type="text" placeholder="search here..."/>
+                </form>
+            </div>
         </>
     );
 }

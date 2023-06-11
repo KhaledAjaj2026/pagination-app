@@ -9,8 +9,19 @@
 }
 
 /********** SearchBar **********/
-.search_title {
-  color: red;
+.searchbar_body {
+  margin: 3rem 40vw;
+}
+
+.search_field {
+  border: 1px solid #0f210e;
+  border-radius: 5px;
+  background-color: #b7c6b5;
+  padding-left: 20px;
+  color: black;
+  width: 20vw;
+  height: 3rem;
+  font-size: 1.2rem;
 }
 
 /********** List **********/
