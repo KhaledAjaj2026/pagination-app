@@ -68,9 +68,10 @@ $mint-cream: #f1f7ed;
     padding-right: 10px;
 }
 .arrow_image {
-    
+    cursor: pointer;
 }
-.page_num {
+.page_num_box {
+    margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -79,5 +80,10 @@ $mint-cream: #f1f7ed;
     width: 25px;
     height: 25px;
     border: 2px solid $mint-cream;
-    margin-bottom: 30px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+.page_number {
+    margin: 3px;
+    cursor: pointer;
 }

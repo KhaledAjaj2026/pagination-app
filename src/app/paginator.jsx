@@ -23,10 +23,22 @@ export default function Paginator() {
                         onClick={movePageLeft}
                     />
                 </div>
-                <div className={styles.page_num}>
-                    <div className={styles.box}></div>
-                    <div className={styles.box}></div>
-                    <div className={styles.box}></div>
+                <div className={styles.page_num_box}>
+                    <div className={styles.box}>
+                        <p className={styles.page_number}>1</p>
+                    </div>
+                    <div className={styles.box}>
+                        <p className={styles.page_number}>2</p>
+                    </div>
+                    <div className={styles.box}>
+                        <p className={styles.page_number}>3</p>
+                    </div>
+                    <div className={styles.box}>
+                        <p className={styles.page_number}>4</p>
+                    </div>
+                    <div className={styles.box}>
+                        <p className={styles.page_number}>5</p>
+                    </div>
                 </div>
                 <div className={styles.page_arrow}>
                     <Image
@@ -34,6 +46,9 @@ export default function Paginator() {
                         src={arrowRight} 
                         alt="right arrow"
                         onClick={movePageRight}
+                        style={{
+                            cursor: 'pointer'
+                        }}
                     />
                 </div>
             </div>
