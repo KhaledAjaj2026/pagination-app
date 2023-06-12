@@ -41,9 +41,11 @@ $mint-cream: #f1f7ed;
     justify-content: center;
 
     ul {
-        padding: 0;
         list-style: none;
         color: $dark-green;
+        li {
+            padding: 1.5rem;
+        }
     }
 }
 

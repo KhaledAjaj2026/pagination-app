@@ -35,9 +35,11 @@
   justify-content: center;
 }
 .list_body ul {
-  padding: 0;
   list-style: none;
   color: #0d1a08;
+}
+.list_body ul li {
+  padding: 1.5rem;
 }
 
 /********** Attendants **********/
