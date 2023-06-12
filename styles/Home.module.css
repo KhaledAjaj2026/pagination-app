@@ -6,7 +6,6 @@
   background-color: #344e41;
   color: #f1f7ed;
   text-align: center;
-  overflow-x: hidden;
 }
 
 /********** SearchBar **********/
@@ -17,7 +16,7 @@
   background-color: #b7c6b5;
   padding-left: 20px;
   color: black;
-  width: 20vw;
+  width: 250px;
   height: 3rem;
   font-size: 1.2rem;
 }
