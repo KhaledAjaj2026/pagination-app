@@ -12,6 +12,7 @@ $mint-cream: #f1f7ed;
     background-color: $brunswick;
     color: $mint-cream;
     text-align: center;
+    overflow-x: hidden;
 }
 
 /********** SearchBar **********/
@@ -59,7 +60,7 @@ $mint-cream: #f1f7ed;
 .paginator_body {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin: 3rem auto;
 }
 .page_arrow {
     padding-left: 10px;

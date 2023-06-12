@@ -6,6 +6,7 @@
   background-color: #344e41;
   color: #f1f7ed;
   text-align: center;
+  overflow-x: hidden;
 }
 
 /********** SearchBar **********/
@@ -52,7 +53,7 @@
 .paginator_body {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin: 3rem auto;
 }
 
 .page_arrow {
