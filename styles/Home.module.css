@@ -26,28 +26,25 @@
   display: flex;
   background-color: #babd8d;
   width: 50vw;
-  height: 50vh;
+  height: auto;
   margin-left: 25vw;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
 }
 .list_body ul {
   list-style: none;
+  text-align: left;
+  margin-left: 35px;
   color: #0d1a08;
 }
 .list_body ul li {
   padding: 1.5rem;
+  display: inline-block;
 }
-
-/********** Attendants **********/
-.attendants_item {
-  color: blue;
-}
-
-.identifier {
+.list_body ul li span {
   font-weight: bold;
 }
 

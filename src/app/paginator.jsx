@@ -46,9 +46,6 @@ export default function Paginator() {
                         src={arrowRight} 
                         alt="right arrow"
                         onClick={movePageRight}
-                        style={{
-                            cursor: 'pointer'
-                        }}
                     />
                 </div>
             </div>

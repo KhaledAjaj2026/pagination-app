@@ -32,29 +32,27 @@ $mint-cream: #f1f7ed;
     display: flex;
     background-color: $sage;
     width: 50vw;
-    height: 50vh;
+    height: auto;
     margin-left: 25vw;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
 
     ul {
         list-style: none;
+        text-align: left;
+        margin-left:35px;
         color: $dark-green;
         li {
             padding: 1.5rem;
+            display: inline-block;
+            span {
+                font-weight: bold;
+            }
         }
     }
-}
-
-/********** Attendants **********/
-.attendants_item {
-    color: blue;
-}
-.identifier {
-    font-weight: bold;
 }
 
 /********** Paginator **********/
