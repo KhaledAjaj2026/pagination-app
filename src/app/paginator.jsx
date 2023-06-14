@@ -42,7 +42,7 @@ export default function Paginator() {
                 </div>
                 <div className={styles.page_arrow}>
                     <Image
-                        className={styles.arrowImage} 
+                        className={styles.arrow_image} 
                         src={arrowRight} 
                         alt="right arrow"
                         onClick={movePageRight}

@@ -55,6 +55,23 @@ $mint-cream: #f1f7ed;
     }
 }
 
+/********** Sort **********/
+.sort_body {
+    width: 200px;
+    height: 350px;
+    background-color: $sage;
+    position: fixed;
+    left: 5rem;
+    top: 5rem;
+    border-radius: 5px;
+}
+.sort_form {
+    padding: 20px;
+    #sort_label {
+        color: $dark-green;
+    }
+}
+
 /********** Paginator **********/
 .paginator_body {
     display: flex;
