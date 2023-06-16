@@ -17,11 +17,11 @@ $mint-cream: #f1f7ed;
 /********** SearchBar **********/
 .search_field {
     margin: 3rem 40vw;
-    border: 1px solid #0f210e;
+    border: 1px solid $dark-green;
     border-radius: 5px;
     background-color: #b7c6b5;
     padding-left: 20px;
-    color: black;
+    color: $dark-green;
     width: 250px;
     height: 3rem;
     font-size: 1.2rem;
@@ -36,6 +36,7 @@ $mint-cream: #f1f7ed;
     margin-left: 25vw;
     padding-top: 20px;
     padding-bottom: 20px;
+    border: 1px solid $dark-green;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -63,6 +64,7 @@ $mint-cream: #f1f7ed;
     position: fixed;
     left: 5rem;
     top: 5rem;
+    border: 1px solid $dark-green;
     border-radius: 5px;
 }
 .sort_form {

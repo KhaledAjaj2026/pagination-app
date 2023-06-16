@@ -48,6 +48,24 @@
   font-weight: bold;
 }
 
+/********** Sort **********/
+.sort_body {
+  width: 200px;
+  height: 350px;
+  background-color: #babd8d;
+  position: fixed;
+  left: 5rem;
+  top: 5rem;
+  border-radius: 5px;
+}
+
+.sort_form {
+  padding: 20px;
+}
+.sort_form #sort_label {
+  color: #0d1a08;
+}
+
 /********** Paginator **********/
 .paginator_body {
   display: flex;
