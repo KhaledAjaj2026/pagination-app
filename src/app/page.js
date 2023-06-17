@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <>
       <SearchBar />
-      <List />
       <Sort />
+      <List />
       <Paginator />
     </>
   )

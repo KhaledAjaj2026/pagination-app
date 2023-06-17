@@ -59,7 +59,8 @@ $mint-cream: #f1f7ed;
 /********** Sort **********/
 .sort_body {
     width: 200px;
-    height: 350px;
+    height: auto;
+    padding: 20px;
     background-color: $sage;
     position: fixed;
     left: 5rem;
@@ -68,10 +69,13 @@ $mint-cream: #f1f7ed;
     border-radius: 5px;
 }
 .sort_form {
-    padding: 20px;
-    #sort_label {
-        color: $dark-green;
-    }
+    padding-left: 20px;
+    padding-right: 20px;
+    color: $dark-green;
+}
+.sort_filter_item {
+    display: grid;
+    margin-bottom: 20px;
 }
 
 /********** Paginator **********/

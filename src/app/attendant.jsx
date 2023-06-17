@@ -7,7 +7,7 @@ import styles from '../../styles/Home.module.scss'
 export default function Attendants() {
     useEffect(() => {
     let name, color, id;
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 10; i++) {
         name = attendees[i].name;
         color = attendees[i].color;
         id = attendees[i].id;
